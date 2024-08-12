@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\orika\OneDrive\שולחן העבודה\Robux\robux.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Free Robux!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Free Robux!</h1>
+        </header>
+        <main>
+            <img src="robux.png" alt="Robux Gift Image" class="gift-image">
+            <p>Select the amount of Robux:</p>
+            <input type="range" id="robuxSlider" min="1" max="10000" value="5000" oninput="updateSliderValue()">
+            <span id="sliderValue">5000</span> Robux
+            <p>Click the button below<br>to download your Robux gift!</p>
+            <button onclick="downloadGift()">Download</button>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
